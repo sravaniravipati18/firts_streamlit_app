@@ -3,8 +3,7 @@ import pandas
 import requests
 import snowflake.connector
 from urllib.error import URLError
-from pandas import pandas.io.json
-from pandas.io.json import json_normalize
+
 streamlit.title('My Parents New Healthy Diner')
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣Omega 3 & Blueberry Oatmeal')
